@@ -2,9 +2,11 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
+    "firebase": "^9.6.10",
     "parcel": "^2.4.1",
     "prettier": "^2.6.2"
   }

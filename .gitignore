@@ -3,6 +3,7 @@
 
 # Development
 /.parcel-cache
+/.firebase
 
 # Build
 /dist
