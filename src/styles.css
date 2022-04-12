@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+canvas {
+  box-sizing: content-box;
+  image-rendering: pixelated;
+  border: 2px solid #333;
+  width: 480px;
+  height: 432px;
+}
