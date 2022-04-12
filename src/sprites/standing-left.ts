@@ -1,7 +1,7 @@
 import { SpriteData } from '../types/sprite-data';
 
 const sprite: SpriteData = {
-  name: 'Standing (Left)',
+  name: 'Standing Left',
   width: 8,
   height: 8,
   palette: { 1: '#333' },
