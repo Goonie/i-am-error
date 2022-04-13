@@ -2,7 +2,7 @@ import { observer } from './observer';
 
 class Timer {
   private interval: NodeJS.Timer;
-  private rateFactor: number = 45 / 1000;
+  private rateFactor: number = 60 / 1000;
   private previousTick: number;
 
   constructor() {

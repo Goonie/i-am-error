@@ -21,10 +21,16 @@ class Game {
   }
 
   update() {
+    for (let entity of this.entities) {
+      entity.update();
+    }
+
     this.render();
   }
 
   render() {
+    this.context.clearRect(0, 0, 160, 144);
+
     for (let entity of this.entities) {
       entity.renderToContext(this.context);
     }
